@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaihda fonttia JavasScriptin avulla</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="../1/css/layout.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    
+    <script type="text/javascript" src="../1/js/skripti.js"></script>
+    <script type="text/javascript" src="./js/skripti.js" defer></script>
+</head>
+
+<body>
+    <div class="grey">
+        <h1>Muuta fonttikokoa Javascriptillä</h1>
+        <p class="space">Huom! Kaikki muutokset tapahtuvat Javascriptin avulla.</p>
+        <p>Listan fonttikokoa muutetaan alla olevaa painonappia painamalla.Listan oletusfonttikokko on 16 px.</p>
+        <h2 id="otsikko" >Tämän listan fonttikoko pitä muuttua nappia painamalla</h2>
+        <ol id="lista">
+            <li>Ensimmäinen napain painallus muuttaa fonttikoon 20px.</li>
+            <li>Seuraava napain painallus muuttaa fonttikoon 24px.</li>
+            <li>Seuraava napain painallus muuttaa fonttikoon 28px.</li>
+            <li>Seuraava napain painallus muuttaa fonttikoon 32px.</li>
+            <li>Seuraava napain painallus muuttaa fonttikoon 16px.</li>
+            
+        </ol>
+        <button id="button" type="button" onclick="myFunction()">Fontin koko</button>
+    
+        <p id="showClicks1" >Fonttikoko nyt: 16px</p>
+    </div>
+
+    <div id="fontsType" class="grey">
+        <h1>Muuta fonttityypiä Javascriptillä</h1>
+        <p class="space">Huom! Kaikki muutokset tapahtuvat Javascriptin avulla.</p>
+        <p>Listan fonttityypiä vaihdetaan alla olevaa painonappia painamalla.</p>
+        <p>Listan oletusfontti on "Courier New", fonttikokko 16px.</p>
+        <p class="italic">Mutta mitä tapahtuu, jos painat nappia 10 kertaa?</p>
+        <h2 id="otsikko" >Tämän listan fonttityyppi muuttuu napista painamalla</h2>
+        <ol id="list" class="changeFont">
+            <li id="eka">Ensimmäinen napain painallus muuttaa fonttityypiksi "Roboto"</li>
+            <li>Seuraava napain painallus muuttaa fonttityypiksi "Mansalva"</li>
+            <li>Seuraava napain painallus muuttaa fonttityypiksi "Grenze"</li>
+            <li>Seuraava napain painallus muuttaa fonttityypiksi "Turret Road"</li>
+            <li>Seuraava napain painallus muuttaa fonttityypiksi "Courier New"</li>
+        
+        </ol>
+        <button id="button" type="button" onclick="changeFont()">Muuta fontti</button>
+        <p id="showClicks" >Fontti on nyt: Courier New</p>
+    </div>
+    
+    
+    
+</body>
+</html>

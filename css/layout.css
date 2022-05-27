@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Grenze&family=Mansalva&family=Roboto&family=Turret+Road&display=swap");
+
+body {
+  padding: 1rem;
+
+  font-size: 16px;
+}
+
+h1 {
+  padding: 8px;
+  font-size: 32px;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+h2 {
+  padding: 1rem;
+  font-size: 28px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 2rem;
+}
+ol {
+  list-style: decimal;
+  padding-left: 3rem;
+}
+
+li {
+  padding: 5px;
+}
+
+#button {
+  background-color: #45427e;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+  box-shadow: none;
+  border-color: #45427e;
+  border-style: solid;
+}
+
+.grey {
+  padding: 1rem 1rem;
+  background-color: #e9ecef;
+
+  margin: 0 10rem 5rem 10rem;
+  border-radius: 1rem;
+}
+
+#fontsType {
+  font-family: "Courier New", Courier, monospace;
+}
+.space {
+  margin-bottom: 1rem;
+}
+.italic {
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+#showClicks {
+  font-size: 12px;
+  float: right;
+  padding-top: 5px;
+}
+#showClicks1 {
+  font-size: 12px;
+  float: right;
+  padding-top: 5px;
+}
